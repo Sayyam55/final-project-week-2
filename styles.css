@@ -1,8 +1,9 @@
 
 
-nav {
-    height: 80px;
+.nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__container {
@@ -16,10 +17,15 @@ nav {
 
 .logo {
     width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 img {
+     width: 50%;
+     padding: 20px;
 }
 
 ul {
@@ -40,8 +46,12 @@ li {
     font-family: inter, system-ui;
 }
 
+.nav__link:hover {
+    text-decoration: underline;
+}
+
 .nav__link--primary:hover {
-    transition: all 300ms ease
+text-decoration: none;
 }
 
 .header__container {
@@ -54,7 +64,7 @@ li {
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 36px;
     margin-bottom: 24px;
     margin-right: 50%;
     font-family: inter, system-ui
@@ -71,9 +81,79 @@ h1 {
     border-radius: 50px;
     color: white;
     transition: all 300ms ease;
+    text-decoration: none;
 }
 
 .twocolumnwithinput__paragraph {
     display: flex;
     justify-content: center;
 }
+
+h1 {
+ font-family: inter, system-ui;
+ font-size: 40px;
+ color: #1a202c;
+}
+
+.subheader {
+    font-size: 16px;
+    color: #243e63;
+    font-family: inter, system-ui;
+    margin: 20px 0; 
+}
+
+.purple{
+    color: #6415ff;
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #6415ff;
+    color: #f7fafc;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: inter, system-ui;
+    color: #243e63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+    
+.highlight__para {
+    color: #7c8ba1;
+    font-size: 20px;
+    font-family: inter, system-ui;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}   
+
+.image__container {
+    width: 10%;
+}
+
+.row {
+    width: 500%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.higlight__img--wrapper {
+    width: 20%;
+}
+
+h3 {
+    text-align: center;
+}
+
