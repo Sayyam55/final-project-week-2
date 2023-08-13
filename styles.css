@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 50px;
+    align-items: center;
 }
 
 
@@ -23,7 +23,7 @@
 }
 
 
-img {
+.women__img {
      width: 50%;
      padding: 20px;
 }
@@ -39,10 +39,17 @@ li {
 .nav__link {
     margin-left: 16px;
     text-decoration: none;
-    font-size: 18px;
-    padding: 8px;
-    color: #1a202c;
+    color: #243e63;
+    font-family: inter, system-ui;
+    margin: 0px 24px;
+    padding: 0 0 4px;
+    font-size: 14px;
     font-weight: bold;
+}
+
+ .nav__links {
+    padding: 8px;
+    color: #243e63;
     font-family: inter, system-ui;
 }
 
@@ -144,16 +151,76 @@ h2 {
 }
 
 .row {
-    width: 500%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+.highlight__img {
+    flex-shrink: 0;
+    border-radius: 9999px;
+    border-width: 1px;
+    padding: 1.25rem;
+    text-align: center;
+    border: 2px solid;
+    opacity: 1;
+}
+ 
 .higlight__img--wrapper {
     width: 20%;
+    display: flex;
 }
 
 h3 {
-    text-align: center;
+   display: flex;
 }
 
+h5 {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    --tw-text-opacity: 1;
+    font-family: inter system-ui;
+}
+ 
+.personal__logo{
+    font-family: inter system-ui;
+    font-weight: 900;
+    font-size: 30px;
+    color: #243e63;
+    margin: 0 12px;
+}
+
+.customers-logo-strip {
+  width: 60%;
+  opacity: 0.5;
+  font-weight: 700;
+}
+
+.para__title {
+    color: #a0aec0;
+    font-size: 12px;
+    font-family: inter system-ui;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    --tw-text-opacity: 1;
+}
+
+p.description {
+    color: #7c8ba1;
+    font-family: inter system-ui;
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 0.025em
+}
+
+ .container {
+     display: flex;
+     
+}
