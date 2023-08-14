@@ -15,8 +15,8 @@
 }
 
 
-.logo {
-    width: 50px;
+img.logo {
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,7 +192,7 @@ h5 {
     font-weight: 900;
     font-size: 30px;
     color: #243e63;
-    margin: 0 12px;
+    margin-left: 80px;
 }
 
 .customers-logo-strip {
@@ -217,10 +217,40 @@ p.description {
     margin-top: 1rem;
     font-weight: 500;
     line-height: 2;
-    letter-spacing: 0.025em
+    letter-spacing: 0.025em;
+    max-width: 1024px;
 }
 
  .container {
      display: flex;
      
+}
+
+#highlights {
+}
+
+.sub__title {
+    font-size: 26px;
+    font-family: inter system ui;
+}
+
+.sub__description{ 
+    text-align: left;
+    
+}
+
+.para__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__img--wrapper{
+    width: 400%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    max-width: fit-content;
 }
