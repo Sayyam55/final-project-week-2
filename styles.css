@@ -255,10 +255,10 @@ p.description {
 }
 
 .flex {
-  align-items: center;
-  justify-content: space-between;
-  max-width: fit-content;
-  flex-direction: row;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
 }
 
 .column__img {
