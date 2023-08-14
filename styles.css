@@ -171,9 +171,15 @@ h2 {
     display: flex;
 }
 
+
 h3 {
    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
 }
+
+
 
 h5 {
     font-size: 16px;
@@ -249,8 +255,14 @@ p.description {
 }
 
 .flex {
-  display: flex;
   align-items: center;
   justify-content: space-between;
-    max-width: fit-content;
+  max-width: fit-content;
+  flex-direction: row;
+}
+
+.column__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
