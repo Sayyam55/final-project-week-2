@@ -318,6 +318,11 @@ h6{
     line-height: 2;
 }
 
+
+.img__title{
+    display: flex;
+}
+
 .hero__img{
 
 }
