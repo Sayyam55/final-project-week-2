@@ -296,6 +296,36 @@ flex-wrap: wrap;
     opacity: 2;
 }
 
+.subheading{
+    width: 150%;
+}
+
+.steps__heading{
+    direction: rtl;
+}
+
+h6{
+    font-size: 20px;
+}
+
+.column__para{
+    color: #718096;
+    font-size: 18px;
+    margin-top: 0.75rem;
+    max-width: 20rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.hero__img{
+
+}
+
+.column__steps{
+ 
+}
+
 .description__wrapper {
     
 }
