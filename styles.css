@@ -152,6 +152,7 @@ h2 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    margin: 150px;
 }
 
 .highlight__img {
@@ -200,12 +201,12 @@ h5 {
     font-family: inter system-ui;
 }
  
-.personal__logo{
+.personal__logo {
     font-family: inter system-ui;
     font-weight: 900;
     font-size: 30px;
     color: #243e63;
-    margin-left: 8px;
+    margin-left: 15px;
 }
 
 .customers-logo-strip {
@@ -285,12 +286,14 @@ flex-wrap: wrap;
 
 .section__title{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.input{
-    width: 100%;
-    border-radius: 9999px;
-    border-width: 2px;
+.text__placeholder{
+    border-radius: 999px;
+    font-weight: 500;
+    opacity: 2;
 }
 
 .description__wrapper {
