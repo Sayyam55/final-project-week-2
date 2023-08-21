@@ -30,10 +30,6 @@ img.logo {
      align-items: center;
 }
 
-ul {
-    display: flex;
-}
-
 li {
     list-style: none;
 }
@@ -53,6 +49,7 @@ li {
     padding: 8px;
     color: #243e63;
     font-family: inter, system-ui;
+    display: flex;
 }
 
 .nav__link:hover {
@@ -113,6 +110,7 @@ h1 {
 
 .purple{
     color: #6415ff;
+    margin-left: 9px;
 }
 
 button{
@@ -272,6 +270,8 @@ p.description {
 .hero__img--wrapper {
   width: 100%;
   padding: 50px;
+  border-radius: 0.25rem;
+  border-width: 1px;
     
 }
 
@@ -353,11 +353,25 @@ h6{
 
 .column__steps{
     list-style-type: auto;
+    justify-content: center;
+    align-items: center;
 }
+
 .column__list{
-    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.twocolwithsteps__steps{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.steps__container{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .twocol__steps{
