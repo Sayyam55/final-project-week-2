@@ -354,6 +354,20 @@ h6{
 .column__steps{
     list-style-type: auto;
 }
+.column__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twocol__steps{
+
+
+}
+
+
+.column__steps{
+}
 
 .description__wrapper {
     
