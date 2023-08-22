@@ -23,6 +23,7 @@ img.logo {
 }
 
 
+
 .women__img {
      width: 50%;
      padding: 20px;
@@ -194,7 +195,6 @@ h5 {
     font-size: 16px;
     display: flex;
     justify-content: center;
-    align-items: center;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -353,26 +353,34 @@ h6{
 
 .column__steps{
     list-style-type: auto;
-    justify-content: center;
-    align-items: center;
+
 }
+
+
 
 .column__list{
-    align-items: center;
-    justify-content: center;
-}
+ 
+ }
+
 
 .twocolwithsteps__steps{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
 }
+
 
 
 .steps__container{
-    display: flex;
     justify-content: flex-end;
 }
+
+.colwithsteps__text{
+    
+}
+
+.colwithsteps--wrapper{
+    display: flex;
+    flex-direction: column;
+}   
 
 .twocol__steps{
 
